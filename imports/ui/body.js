@@ -8,3 +8,4 @@ Template.body.helpers({
     { title: 'Fitness training', description: 'I\'ll make you strong' },
   ],
 });
+
