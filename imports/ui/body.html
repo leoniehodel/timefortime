@@ -1,0 +1,14 @@
+<body>
+  <div class="container">
+    <header>TimeforTime </header>
+    <ul>
+      {{#each offers}}
+        {{>offer}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="offer">
+  <li>{{text}}</li>
+</template>
